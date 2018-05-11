@@ -1,0 +1,250 @@
+@charset 'UTF-8';
+body{
+	font-family: 'Arial';
+	background: #E7E7E7;
+}
+header{
+	padding:0.6rem .6rem .35rem 0.6rem;
+	background: #38474E;
+
+}
+.hd_top{
+	height: 0.75rem;
+	line-height: 0.75rem;
+	font-size: 0.85rem;
+	margin-bottom: 0.75rem;
+}
+.hd_top i a{
+	color: #232B2F;
+}
+.hd_top h3{
+	margin: 0 1.125rem 0 1.125rem;
+	color: #fff;
+}
+.hd_top>a{
+	margin-right: 0.375rem;
+	margin-bottom: 0.45rem;
+	color: #232B30;
+	position: relative;
+}
+.hd_top span{
+	width: 0.7rem;
+	height: 0.45rem;
+	font-size: .3rem;
+	border-radius: .25rem;
+	background: #fff;
+	position: absolute;
+	top:-.05rem;right: -.45rem;
+	text-align: center;
+	line-height: .45rem;
+}
+.hd_btm a{
+	width: 7.175rem;
+	height: 1.575rem; 
+	text-align: center;
+	line-height: 1.575rem;
+	color: #fff;
+	font-size: 0.5rem;
+	border-radius: 3px;
+}
+.hd_btm ._a1{
+	background: #2D3A40;
+}
+.hd_btm ._a2{
+	background: #F6846A;
+}
+.banner{
+	width: 14.8rem;
+	height: 10.8rem;
+	margin: 0 .6rem;	
+	margin-top: 0.675rem;
+	border-radius: 3px;
+	font-size: .675rem;
+	margin-top: 0.675rem;
+	border-radius: 3px;
+	font-size: .675rem;
+	line-height: 1.675rem;
+	box-shadow: 1px 3px 10px #ccc;
+	padding-bottom: .875rem;
+	background: #fff;
+	overflow: hidden;
+}
+.banner .ban_top img{
+float: left;
+}
+.banner img{
+	width: 14.8rem;
+	height: 11.8rem;
+	margin-bottom: .7rem;
+}
+
+.banner .ban_btm .p1{
+	margin-left: .5rem;
+}
+.banner .ban_btm .p2{
+color: #fff;
+background: #ccc;
+width: 3.6rem;
+height: 1.675rem;
+text-align: center;
+margin-right: .6rem;
+	border-radius: 5px;
+}
+
+.con1{
+	margin: 0.675rem .6rem .85rem .6rem;	
+	border-radius: 3px;
+	font-size: .675rem;
+	line-height: 2.5rem;
+	box-shadow: 1px 3px 10px #ccc;
+	height: 2.5rem;
+	background: #fff;
+}
+.con1 img{
+	width: 14.8rem;
+	height: 14.8rem;
+}
+.con1 img{
+	width: .6rem;
+	height: .6rem;
+	margin: 0.95rem 1.05rem;}
+.con1 .ban_btm .p1{
+	float: left;
+}
+.con2{
+	margin: 0.675rem .6rem 0 .6rem;	
+	box-shadow: 1px 3px 10px #ccc;
+	margin: 0 .6rem;	
+	text-align: center;
+	background: #fff;
+	border-radius: 5px;
+}
+.con2 .con2_top{
+	padding-top: .85rem;
+}
+.con2 .con2_top h3{
+	width: 4rem;
+	height:1rem ;
+	margin: 0rem auto .6rem auto;
+	line-height:1rem;
+	padding-left: 1.2rem;
+	background: url('../images/shuidi.png')no-repeat left center;
+}
+.con2 .con2_top p{
+	font-size:.6rem;
+	color: #EFC9CD;
+}
+.con2 .con2_top ul{
+	margin: .675rem auto 0 auto;
+	width: 7.275rem;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1rem;
+
+
+}
+.con2 .con2_top img{
+	margin: .5rem auto 0 auto;
+	width: .575rem;
+	height: .575rem;
+	border-radius: 50%;
+}
+.con2 .con2_top ul li{
+	float: left;
+	width: 1.775rem;
+	height: 1.775rem;
+	border-radius: 5px;
+	margin-left: .5rem;
+}
+.con2 .con2_top li:nth-child(1){
+	background-color: #EFC9CD;
+}
+.con2 .con2_top li:nth-child(2)
+{
+	background: #AF6779;
+}
+.con2 .con2_top li:nth-child(3){
+	background: #87A5B1;
+}
+.con2 .con2_btm h3{
+	width: 4rem;
+	height:1rem ;
+	margin: .85rem auto .6rem auto;
+	line-height:1rem;
+	padding-left: 1.2rem;
+	background: url('../images/shuidi.png')no-repeat left center;
+}
+.con2 .con2_btm p{
+	font-size:.6rem;
+	color: #A6A6AD;
+}
+.con2 .con2_btm ul{
+	width: 11.375rem;
+	margin: .675rem auto 0 auto;
+		padding-bottom: 1.1rem;
+
+}
+.con2 .con2_btm li{
+	float: left;
+	width: 1.775rem;
+	height: 1.775rem;
+	line-height: 1.775rem;
+	border-radius: 5px;
+	margin-left: .35rem;
+	background: #D9D9DD;
+	font-size: .6rem;
+}
+.con3 a{
+	display:block;
+	width: 6.925rem;
+	height: 1.5rem;
+	margin: 1.6rem auto 1.8rem auto;
+	text-align: center;
+	line-height: 1.5rem;
+	background: #394143;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #000;
+	background: #3A4144;
+		color: #fff;
+		font-size: .5rem;
+	}
+	footer{
+	padding-left: .6rem;
+	border-top: 2px solid #ccc;
+	position: relative;
+	padding-bottom: 1.375rem;
+	}
+	footer h4{
+		position: absolute;
+		left: 0;
+		top: -.3rem;
+		height: .6rem;
+		width: 3.75rem;
+		font-size: .6rem;
+		background: #E8E8E8;
+		color: #323C3F;
+		padding-left: .25rem;
+		text-shadow: 1px 0px 1px #000;
+	}
+	footer ul{
+		width: 15rem;
+		margin: 1.125rem auto 0 auto;
+	}
+	footer ul li{
+		float: left;
+		font-size: 12px;
+		line-height:1.125rem;
+		width: 5rem;
+	}
+	footer img{
+		width: 1.85rem;
+		height: 1.85rem;
+	}
+	footer span{
+		margin-top: .5rem;
+		display: inline-block;
+		width: 1.9rem;
+		height: 1.125rem;
+		text-align: center;
+		background: url('../images/sharebg.png') no-repeat center center;
+		background-size: 1.9rem 1.125rem;
+	}

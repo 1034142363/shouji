@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet"  href="css/common.css">
+	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet"  href="font/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+	<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+	<header class="clearfix">
+		<div class="hd_top">
+			<i class="iconfont fl"><a href="#">&#xe67a;</a></i>
+		<h3 class="fl">Woman, Dresses</h3>
+		<a href="#" class="iconfont fr">&#xe692;<span>3</span></a>
+
+		</div>
+		<div class="hd_btm">
+			<a class="fl _a1" href="#">Add to wishlist</a>
+			<a class="fr _a2" href="#">Add to cart</a>
+		</div>
+	</header>
+	<div class="banner">
+		<div class="ban_top clearfix">
+			<img src="images/nv.jpg">
+			<img src="images/nv.jpg">
+			<img src="images/nv.jpg">
+			<img src="images/nv.jpg">
+		</div>
+		<div class="ban_btm clearfix">
+		<p class="fl p1">Elegant Pink Dresses</p>
+		<p class="fr p2">$605,00</p>
+		</div>
+	</div>
+	<div class="con1">
+		<div class="ban_btm clearfix">
+			<img class="fl" src="images/jiahao.png" alt="">
+		<p class="fr p1">Description</p>
+		</div>
+	</div>
+	<div class="con2">
+		<div class="con2_top">
+			<h3>Color:</h3>
+			<p>Choose a colour for item</p>
+			<ul class="clearfix">
+				<li><img src="images/xuanding.png"></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="con2_btm">
+			<h3>Size:</h3>
+			<p>Size available for this item</p>
+			<ul class="clearfix">
+				<li id="show" onclick="show()">6</li>
+				<li id="_2" onclick="_2()">8</li>
+				<li id="_3" onclick="_3()">10</li>
+				<li id="_4" onclick="_4()">12</li>
+				<li id="_5" onclick="_5()">14</li>
+			</ul>
+		</div>
+	</div>
+	<div class="con3"><a href="#">Add to Cart</a></div>
+	<footer>
+		<h4>Share on</h4>
+		<ul class="clearfix">
+			<li><a href="#"><img src="images/niao.png"></a><span>112</span></li>
+			<li><a href="#"><img src="images/f.png"></a><span>112</span></li>
+			<li><a href="#"><img src="images/wb.png"></a><span>112</span></li>
+		</ul>
+	</footer>
+
+
+
+
+
+	<script>
+        function show() {
+            document.getElementById('show').style.background = '#67AFD5';
+            document.getElementById('show').style.color = 'white';
+        }
+        function _2() {
+            document.getElementById('_2').style.background = '#67AFD5';
+            document.getElementById('_2').style.color = 'white';
+        }
+        function _3() {
+            document.getElementById('_3').style.background = '#67AFD5';
+            document.getElementById('_3').style.color = 'white';
+        }
+        function _4() {
+            document.getElementById('_4').style.background = '#67AFD5';
+            document.getElementById('_4').style.color = 'white';
+        }
+        function _5() {
+            document.getElementById('_5').style.background = '#67AFD5';
+            document.getElementById('_5').style.color = 'white';
+        }
+    </script>
+
+</body>
+</html>
